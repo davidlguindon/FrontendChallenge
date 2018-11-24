@@ -4,50 +4,57 @@
 <head>
   <meta charset="utf-8">
   <title>Android</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
+  <div class="Frame">
   <section>
-    Android Top
-    <div>
-      Top dark purple Bar
-      <ul>wifi icon</ul>
-      <ul>router icon</ul>
-      <ul>battery icon</ul>
-      <ul>Clock</ul>
+    <div class="AndroidTop">
+      <ul class="Clock">12:40</ul>
+      <ul><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></ul>
+      <ul><i class="fa fa-signal" aria-hidden="true"></i></ul>
+      <ul><i class="fa fa-wifi" aria-hidden="true"></i></ul>
     </div>
-    <div>
-      Main Light purple bar
-      <ul>Back Button</ul>
-      <ul>Bus Stop Name</ul>
-      <ul>Search Icon</ul>
-      <ul>Options Icon</ul>
+    <div class="Frame2">
+      <ul><i class="fa fa-ellipsis-v" aria-hidden="true"></i></ul>
+      <ul><i class="fa fa-search" aria-hidden="true"></i></ul>
+      <h1>Washington - State</h1>
+      <ul><i class="fa fa-arrow-left" aria-hidden="true"></i></ul>
     </div>
   </section>
-  <section>Column Descriptions
-    <ul>list of columns
-      <li>Destination</li>
-      <li>Bus Direction</li>
-      <li>Arrival Time</li>
-      <li>Route Name</li>
+  <section>
+      <ul class="Frame3">
+        <li class="Name">Route Name</li>
+        <li class="Destination">Destination</li>
+        <li class="Time">Arrival Time</li>
+      </ul>
+  </section>
+  <section class="Direction">Northbound</section>
+  <section class="Direction">Eastbound</section>
+  <section class="Direction">Southbound</section>
+  <section class="Direction">Westbound</section>
+  <section class="Delayed">Delayed</section>
+  <section class="OOS">Out of Service</section>
+  <section class="StopInformation">
+    <ul class="Frame3">
+      <li class="Name">Route Name</li>
+      <li class="Destination">Destination</li>
+      <li class="Time">Arrival Time</li>
     </ul>
   </section>
   <section>
-    Bus-Stop Information
-    <ul>Column Descriptions
-      <li>Destination</li>
-      <li>Bus Direction</li>
-      <li>Arrival Time</li>
-      <li>Route Name</li>
-    </ul>
+    <div class="AndroidNavBar">
+      <ul>
+        <li><i class="far fa-circle"></i></li>
+        <li><i class="fas fa-angle-left"></i></li>
+        <li><i class="far fa-square"></i></li>
+      </ul>
+    </div>
   </section>
-  <section>
-    Android Nav Bar
-    <ul>3 nav buttons
-      <li>Back</li>
-      <li>Home</li>
-      <li>Change Window</li>
-    </ul>
-  </section>
+</div>
 </body>
 </html>

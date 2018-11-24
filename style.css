@@ -1,7 +1,139 @@
-section
-  {
-    background: cyan;
-    color: gray;
-    margin: 0px;
-    padding: 0px;
-  }
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.Frame{
+  margin: 0 auto;
+  width: 360px;
+  height: 640px;
+  background-color: gray;
+  border: solid black 1px;
+}
+
+.AndroidTop{
+  background-color: #512DA8;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.fa-wifi{
+  color: lightgray;
+  padding: 3px;
+}
+
+.fa-signal{
+  color: lightgray;
+  padding: 3px;
+}
+
+.fa-battery-three-quarters{
+  color: lightgray;
+  padding: 3px;
+}
+
+.Clock{
+  color: lightgray;
+  padding: 3px;
+}
+
+.Frame2{
+  background-color: #673AB7;
+  width: 358px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding:15px;
+}
+
+.fa-arrow-left{
+padding-right: 60px;
+color: lightgray;
+}
+
+.fa-search{
+  padding-left: 10px;
+  color: lightgray;
+}
+
+.fa-ellipsis-v{
+  padding-left: 10px;
+  color: lightgray;
+}
+
+h1{
+  font-size: 20px;
+  padding-right: 44px;
+  color: lightgray;
+}
+
+.Frame3{
+  background-color: white;
+  border-bottom: solid gray 2px;
+  padding: 18px;
+  display: flex;
+}
+
+.Name{
+  margin: 0 auto;
+}
+
+.Destination{
+  margin: 0 auto;
+}
+
+.Time{
+  margin: 0 auto;
+}
+
+.Direction{
+  background-color: darkcyan;
+  color: lightgray;
+  padding: 15px;
+  text-align: center;
+}
+
+.Delayed{
+  background-color:khaki;
+  color: black;
+  padding: 15px;
+  text-align:center;
+}
+.OOS{
+  background-color:tomato;
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+
+.AndroidNavBar{
+  background-color:black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  text-align: center;
+}
+
+.fa-circle{
+  background-color: red;
+  display: inline-block;
+  width:50px;
+  height: 50px;
+}
+
+.fa-angle-left{
+  background-color: blue;
+  display: inline-block;
+  width:50px;
+  height: 50px;
+}
+
+.fa-square{
+  background-color: yellow;
+  display: inline-block;
+  width:50px;
+  height: 50px;
+}
