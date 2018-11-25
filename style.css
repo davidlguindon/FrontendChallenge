@@ -15,6 +15,11 @@ body{
   border: solid black 1px;
 }
 
+.StopInformation{
+  height: 463px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 .AndroidTop{
   background-color: #512DA8;
   display: flex;
@@ -79,14 +84,20 @@ h1{
 
 .Name{
   margin: 0 auto;
+  width: 22%;
+  text-align: center;
 }
 
 .Destination{
   margin: 0 auto;
+  width: 52%;
+  text-align: center;
 }
 
 .Time{
   margin: 0 auto;
+  width: 22%;
+  text-align: center;
 }
 
 .Direction{
@@ -114,30 +125,23 @@ h1{
   color: white;
   padding: 5px;
   text-align: center;
-  text-size:0px;
+  display: flex;
 }
-
 .footer{
-  display: inline-block;
-  margin: 0 auto;
-  background-color: orange;
-  width: 25%;
-  height: 30px;
-}
-
-.fa-circle{
-  background-color: red;
+  height: 40px;
+  width: 40px;
+  flex-wrap: nowrap;
+  margin: auto;
 }
 
 .fa-angle-left{
-  background-color: blue;
-  display: inline-block;
-  float: left;
+  margin-top: 8px;
+}
 
+.fa-circle{
+  margin-top: 10px;
 }
 
 .fa-square{
-  background-color: yellow;
-  display: inline-block;
-  float: right;
+  margin-top: 10px;
 }
