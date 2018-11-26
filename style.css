@@ -13,12 +13,13 @@ body{
   height: 640px;
   background-color: gray;
   border: solid black 1px;
+   overflow: hidden;
 }
 
 .StopInformation{
   height: 463px;
+  width: 375px;
   overflow-y: scroll;
-  overflow-x: hidden;
 }
 .AndroidTop{
   background-color: #512DA8;
@@ -103,21 +104,24 @@ h1{
 .Direction{
   background-color: darkcyan;
   color: lightgray;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+  border-bottom: solid gray 2px;
 }
 
 .Delayed{
   background-color:khaki;
   color: black;
-  padding: 15px;
+  padding: 10px;
   text-align:center;
+  border-bottom: solid gray 2px;
 }
 .OOS{
   background-color:tomato;
   color: black;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
+  border-bottom: solid gray 2px;
 }
 
 .AndroidNavBar{
