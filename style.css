@@ -83,27 +83,35 @@ h1{
   display: flex;
 }
 
+.Frame4{
+  background-color: white;
+  border-bottom: solid gray 2px;
+  padding: 18px;
+  display: flex;
+  font-weight: 600;
+}
+
 .Name{
   margin: 0 auto;
   width: 22%;
-  text-align: center;
+  text-align: left;
 }
 
 .Destination{
   margin: 0 auto;
   width: 52%;
-  text-align: center;
+  text-align: left;
 }
 
 .Time{
   margin: 0 auto;
   width: 22%;
-  text-align: center;
+  text-align: right;
 }
 
 .Direction{
   background-color: darkcyan;
-  color: lightgray;
+  color: white;
   padding: 10px;
   text-align: center;
   border-bottom: solid gray 2px;
