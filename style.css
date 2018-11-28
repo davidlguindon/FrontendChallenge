@@ -86,19 +86,19 @@ h1{
 .Name{
   margin: 0 auto;
   width: 22%;
-  text-align: center;
+  text-align: left;
 }
 
 .Destination{
   margin: 0 auto;
   width: 52%;
-  text-align: center;
+  text-align: left;
 }
 
 .Time{
   margin: 0 auto;
   width: 22%;
-  text-align: center;
+  text-align: right;
 }
 
 .Direction{
@@ -109,6 +109,9 @@ h1{
   border-bottom: solid gray 2px;
 }
 
+.Weight{
+  font-weight: 900;
+}
 .Delayed{
   background-color:khaki;
   color: black;
